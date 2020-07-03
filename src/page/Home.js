@@ -36,8 +36,8 @@ function Home() {
               <li>1,233,344 followers</li>
               <li>Promoted</li>
             </ul>
-            <li className="link">
-              <a href="#"> + Follow</a>
+            <li>
+              <a style={{ color: "black" }}>+ Follow</a>
             </li>
           </div>
           <div className="post-body">
@@ -111,7 +111,7 @@ function Home() {
               <li>Promoted</li>
             </ul>
             <li>
-              <a href="#"> + Follow</a>
+              <a style={{ color: "black" }}>+ Follow</a>
             </li>
           </div>
           <div className="post-body">

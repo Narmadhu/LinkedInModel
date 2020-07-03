@@ -26,40 +26,35 @@ function Nav() {
             iconColor="rgba(255,255,255,1)"
             backgroundColor="rgba(4,95,154,1)"
             iconSize="7"
-            roundness="7%"
+            roundness="8%"
             url="https://some-website.com/my-social-media-url"
             size="30"
+            className="nav-icon"
           />
-          <FaSearch />
-          <input type="text" placeholder="Search" />
+          {/* <FaSearch /> */}
+          <input type="text" placeholder="Search" className="search" />
         </form>
         <nav>
           <ul>
-            <li className="center">
+            <li>
               <a href="#">
-                <li>
-                  <span className="block">
-                    <FaHome size="25" color="dimgrey" />
-                  </span>
-                  <span> Home</span>
-                </li>
+                <span className="block">
+                  <FaHome size="25" color="white" />
+                </span>
+                <span> Home</span>
               </a>
             </li>
 
-            <li className="center">
+            <li>
               <a href="#">
                 <span className="block">
-                  <FaUsers
-                    size="25"
-                    color="dimgrey"
-                    hover={{ color: "white" }}
-                  />
+                  <FaUsers size="25" color="white" />
                 </span>
                 <span> My Network</span>
               </a>
             </li>
 
-            <li className="center">
+            <li>
               <a href="#">
                 <li>
                   <span className="block">
@@ -70,7 +65,7 @@ function Nav() {
               </a>
             </li>
 
-            <li className="center">
+            <li>
               <a href="#">
                 <li className=" hover">
                   <span className="block">
@@ -81,19 +76,26 @@ function Nav() {
               </a>
             </li>
 
-            <li className="center">
+            <li>
               <a href="#">
                 <span className="block">
                   <li>
-                    <FaUser size="25" color="dimgrey" />
+                    <FaUser size="25" color="white" />
                   </li>
                 </span>
                 <span> Me</span>
               </a>
             </li>
 
-            <li>
-              <FiGrid size="25" color="dimgrey" />
+            <li id="last-item">
+              <a href="#">
+                <span className="block ">
+                  <li>
+                    <FiGrid size="25" color="white" />
+                  </li>
+                </span>
+                <span>Work</span>
+              </a>
             </li>
             <p> Try Premium Free for 1 Month</p>
           </ul>
