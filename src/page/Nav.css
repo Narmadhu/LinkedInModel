@@ -1,0 +1,37 @@
+/* global */
+.center {
+  text-align: center;
+}
+.block {
+  display: block;
+}
+.flex {
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+.nav-bar {
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  height: 2%;
+}
+nav {
+  width: 65%;
+}
+.nav-bar nav ul {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  list-style: none;
+}

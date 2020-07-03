@@ -1,0 +1,39 @@
+.grid-3 {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 30px;
+}
+.grid1,
+.grid3 {
+  height: 80vh;
+}
+.box {
+  border: 0.5px solid gray;
+  background-color: white;
+  border-radius: 4px;
+}
+.post {
+  margin-bottom: 10px;
+}
+.post-header {
+  padding: 20px;
+  height: 30px;
+}
+.promo-header a {
+  background-color: black;
+}
+.promo {
+  position: relative;
+  bottom: 25px;
+  margin-right: 300px;
+}
+
+.post-body p {
+  padding: 10px;
+}
+.post-footer ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
