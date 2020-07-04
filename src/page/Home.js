@@ -14,6 +14,8 @@ function Home() {
     <div className=" grid-3">
       <div className="grid1 box">
         <h3>Welcome !</h3>
+        <p>Connections</p>
+        <p>Grow your network</p>
       </div>
 
       <div className="grid2 ">
@@ -37,7 +39,12 @@ function Home() {
               <li>Promoted</li>
             </ul>
             <li>
-              <a style={{ color: "black" }}>+ Follow</a>
+              <a
+                href="#"
+                style={{ color: "deepskyblue", fontWeight: "bolder" }}
+              >
+                + Follow
+              </a>
             </li>
           </div>
           <div className="post-body">
@@ -47,7 +54,7 @@ function Home() {
               esse, beatae provident harum quo ratione tempore, praesentium
               nesciunt fuga deleniti? Et, ipsam sed.
             </p>
-            <img src="/img/people.jpg" alt="" />
+            <img src="/img/work.jpg" alt="" />
 
             <FiThumbsUp />
             <FiHeart />
@@ -111,7 +118,12 @@ function Home() {
               <li>Promoted</li>
             </ul>
             <li>
-              <a style={{ color: "black" }}>+ Follow</a>
+              <a
+                href="#"
+                style={{ color: "deepskyblue", fontWeight: "bolder" }}
+              >
+                + Follow
+              </a>
             </li>
           </div>
           <div className="post-body">

@@ -21,9 +21,13 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #f4f4f4;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell,
+    Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Lucida Grande, Helvetica, Arial, sans-serif;
 }
 .nav-bar {
-  background-color: grey;
+  background-color: rgb(44, 57, 71);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -31,21 +35,23 @@ body {
 }
 form {
   padding: 10px;
-  margin-left: 170px;
+  margin-left: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
 }
 .search {
   outline: none;
   border: none;
   border-radius: 2px;
-  width: 200px;
+  width: 280px;
   font-size: medium;
   margin-left: 10px;
+  background-color: #f4f4f4;
 }
 nav {
-  width: 65%;
+  width: 55%;
   position: relative;
   bottom: 12px;
 }
@@ -55,8 +61,25 @@ nav {
   display: flex;
   justify-content: space-around;
   text-align: center;
+  opacity: 0.7;
 }
-#last-list {
-  color: black;
-  border-left: 0.5px solid gray;
+ul:hover {
+  opacity: 1;
+}
+.nav-bar li span:last-child {
+  font-size: small;
+  position: relative;
+  bottom: 10px;
+}
+.post {
+  background-attachment: fixed;
+  position: relative;
+}
+@media (max-width: 568px) {
+  form {
+    margin-left: 50px;
+  }
+  nav {
+    display: none;
+  }
 }

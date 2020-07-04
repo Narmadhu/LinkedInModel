@@ -2,11 +2,22 @@
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(3, 1fr);
-  margin: 30px;
+  margin: 30px 70px;
 }
 .grid1,
 .grid3 {
   height: 80vh;
+  padding: 20px;
+}
+
+.grid1 h3 {
+  border-bottom: 1px solid gray;
+  padding-bottom: 40px;
+}
+.grid1 p:last-child {
+  position: relative;
+  bottom: 18px;
+  font-weight: 500;
 }
 .box {
   border: 0.5px solid gray;
@@ -34,4 +45,9 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
+  cursor: pointer;
+  border-top: 0.2px solid gray;
+  padding-top: 30px;
+  width: 80%;
+  margin-left: 30px;
 }
