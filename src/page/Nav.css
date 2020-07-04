@@ -71,15 +71,26 @@ ul:hover {
   position: relative;
   bottom: 10px;
 }
+.burger div {
+  height: 24px;
+  width: 10px;
+  background-color: white;
+}
 .post {
   background-attachment: fixed;
   position: relative;
 }
 @media (max-width: 568px) {
+  body {
+    background-color: rgb(231, 231, 231);
+  }
   form {
     margin-left: 50px;
   }
-  nav {
+
+  nav,
+  .grid1,
+  .grid3 {
     display: none;
   }
 }

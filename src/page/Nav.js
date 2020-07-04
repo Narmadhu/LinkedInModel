@@ -28,9 +28,9 @@ function Nav() {
             iconSize="8"
             roundness="8%"
             url="https://some-website.com/my-social-media-url"
-            size="30"
+            size="35"
           />
-          {/* <FaSearch /> */}
+
           <input type="text" placeholder="Search" className="search" />
         </form>
         <nav>
@@ -67,7 +67,7 @@ function Nav() {
             <li>
               <a href="#">
                 <li className=" hover">
-                  <span className="block">
+                  <span className="block message">
                     <FaFacebookMessenger size="30" color="white" />
                   </span>
                   <span>Messaging</span>
@@ -77,7 +77,7 @@ function Nav() {
 
             <li>
               <a href="#">
-                <span className="block">
+                <span className="block user">
                   <li>
                     <FaUser size="30" color="white" />
                   </li>
@@ -100,6 +100,12 @@ function Nav() {
               Try Premium Free for 1 Month
             </p>
           </ul>
+          <div className="burger">
+            <div className="line1"></div>
+            <div className="line1"></div>
+            <div className="line1"></div>
+            <div className="line1"></div>
+          </div>
         </nav>
       </header>
     </div>
