@@ -25,7 +25,7 @@ function Nav() {
             icon="linkedin"
             iconColor="rgba(255,255,255,1)"
             backgroundColor="rgba(4,95,154,1)"
-            iconSize="8"
+            iconSize="7"
             roundness="8%"
             url="https://some-website.com/my-social-media-url"
             size="35"
@@ -77,7 +77,7 @@ function Nav() {
 
             <li>
               <a href="#">
-                <span className="block user">
+                <span className="block">
                   <li>
                     <FaUser size="30" color="white" />
                   </li>
@@ -100,12 +100,6 @@ function Nav() {
               Try Premium Free for 1 Month
             </p>
           </ul>
-          <div className="burger">
-            <div className="line1"></div>
-            <div className="line1"></div>
-            <div className="line1"></div>
-            <div className="line1"></div>
-          </div>
         </nav>
       </header>
     </div>

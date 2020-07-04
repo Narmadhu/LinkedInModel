@@ -61,9 +61,11 @@ nav {
   display: flex;
   justify-content: space-around;
   text-align: center;
+}
+.nav-bar nav ul li {
   opacity: 0.7;
 }
-ul:hover {
+.nav-bar nav ul li:hover {
   opacity: 1;
 }
 .nav-bar li span:last-child {
@@ -72,20 +74,26 @@ ul:hover {
   bottom: 10px;
 }
 .burger div {
-  height: 24px;
-  width: 10px;
+  height: 25px;
+  width: 3px;
   background-color: white;
+  margin: 5px;
 }
 .post {
   background-attachment: fixed;
   position: relative;
 }
-@media (max-width: 568px) {
+
+/* media queries */
+@media (max-width: 768px) {
   body {
     background-color: rgb(231, 231, 231);
   }
   form {
     margin-left: 50px;
+  }
+  span .user {
+    display: block;
   }
 
   nav,

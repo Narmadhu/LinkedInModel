@@ -30,7 +30,6 @@ function Home() {
               backgroundColor="rgba(4,95,154,1)"
               iconSize="7"
               roundness="7%"
-              url="https://some-website.com/my-social-media-url"
               size="50"
             />
             <ul className="promo ">
@@ -108,7 +107,6 @@ function Home() {
               backgroundColor="rgba(4,95,154,1)"
               iconSize="7"
               roundness="7%"
-              url="https://some-website.com/my-social-media-url"
               size="50"
             />
             <ul className="promo ">
