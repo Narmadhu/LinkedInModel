@@ -54,23 +54,19 @@ function Nav() {
 
             <li>
               <button>
-                <li>
-                  <span className="block">
-                    <FaBriefcase size="30" color="white" />
-                  </span>
-                  <span>Jobs</span>
-                </li>
+                <span className="block">
+                  <FaBriefcase size="30" color="white" />
+                </span>
+                <span>Jobs</span>
               </button>
             </li>
 
             <li>
               <button>
-                <li className=" hover">
-                  <span className="block message">
-                    <FaFacebookMessenger size="30" color="white" />
-                  </span>
-                  <span>Messaging</span>
-                </li>
+                <span className="block message">
+                  <FaFacebookMessenger size="30" color="white" />
+                </span>
+                <span>Messaging</span>
               </button>
             </li>
             <li>
@@ -85,9 +81,7 @@ function Nav() {
             <li>
               <button>
                 <span className="block">
-                  <li>
-                    <FaUser size="30" color="white" />
-                  </li>
+                  <FaUser size="30" color="white" />
                 </span>
                 <span> Me</span>
               </button>
@@ -96,9 +90,7 @@ function Nav() {
             <li>
               <button>
                 <span className="block">
-                  <li>
-                    <FiGrid size="30" color="white" />
-                  </li>
+                  <FiGrid size="30" color="white" />
                 </span>
                 <span>Work</span>
               </button>
