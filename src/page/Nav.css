@@ -1,7 +1,6 @@
-/* global */
-/* .center {
-  text-align: center;
-} */
+button span {
+  color: white;
+}
 .block {
   display: block;
 }
@@ -53,7 +52,8 @@ form {
 nav {
   width: 55%;
   position: relative;
-  bottom: 12px;
+  bottom: 18px;
+  right: 20px;
 }
 
 .nav-bar nav ul {
@@ -71,7 +71,7 @@ nav {
 .nav-bar li span:last-child {
   font-size: small;
   position: relative;
-  bottom: 10px;
+  bottom: 4px;
 }
 .burger div {
   height: 25px;
@@ -91,9 +91,6 @@ nav {
   }
   form {
     margin-left: 50px;
-  }
-  span .user {
-    display: block;
   }
 
   nav,

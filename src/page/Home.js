@@ -38,12 +38,9 @@ function Home() {
               <li>Promoted</li>
             </ul>
             <li>
-              <a
-                href="#"
-                style={{ color: "deepskyblue", fontWeight: "bolder" }}
-              >
+              <button style={{ color: "deepskyblue", fontWeight: "bolder" }}>
                 + Follow
-              </a>
+              </button>
             </li>
           </div>
           <div className="post-body">
@@ -115,12 +112,9 @@ function Home() {
               <li>Promoted</li>
             </ul>
             <li>
-              <a
-                href="#"
-                style={{ color: "deepskyblue", fontWeight: "bolder" }}
-              >
+              <button style={{ color: "deepskyblue", fontWeight: "bolder" }}>
                 + Follow
-              </a>
+              </button>
             </li>
           </div>
           <div className="post-body">
@@ -194,12 +188,9 @@ function Home() {
               <li>Promoted</li>
             </ul>
             <li>
-              <a
-                href="#"
-                style={{ color: "deepskyblue", fontWeight: "bolder" }}
-              >
+              <button style={{ color: "deepskyblue", fontWeight: "bolder" }}>
                 + Follow
-              </a>
+              </button>
             </li>
           </div>
           <div className="post-body">

@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  FaSearch,
   FaHome,
   FaUsers,
   FaBriefcase,
@@ -36,65 +35,73 @@ function Nav() {
         <nav>
           <ul>
             <li>
-              <a href="#">
+              <button>
                 <span className="block">
                   <FaHome size="30" color="white" />
                 </span>
                 <span> Home</span>
-              </a>
+              </button>
             </li>
 
             <li>
-              <a href="#">
+              <button>
                 <span className="block">
                   <FaUsers size="30" color="white" />
                 </span>
                 <span> My Network</span>
-              </a>
+              </button>
             </li>
 
             <li>
-              <a href="#">
+              <button>
                 <li>
                   <span className="block">
                     <FaBriefcase size="30" color="white" />
                   </span>
                   <span>Jobs</span>
                 </li>
-              </a>
+              </button>
             </li>
 
             <li>
-              <a href="#">
+              <button>
                 <li className=" hover">
                   <span className="block message">
                     <FaFacebookMessenger size="30" color="white" />
                   </span>
                   <span>Messaging</span>
                 </li>
-              </a>
+              </button>
+            </li>
+            <li>
+              <button>
+                <span className="block">
+                  <FaBell size="30" color="white" />
+                </span>
+                <span>Notification</span>
+              </button>
             </li>
 
             <li>
-              <a href="#">
+              <button>
                 <span className="block">
                   <li>
                     <FaUser size="30" color="white" />
                   </li>
                 </span>
                 <span> Me</span>
-              </a>
+              </button>
             </li>
 
             <li>
-              <a href="#">
+              <button>
                 <span className="block">
                   <li>
                     <FiGrid size="30" color="white" />
                   </li>
                 </span>
                 <span>Work</span>
-              </a>
+              </button>
             </li>
             <p style={{ color: "wheat", fontWeight: "light" }}>
               Try Premium Free for 1 Month
